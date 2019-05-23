@@ -1,0 +1,16 @@
+---
+delegatebot:
+  watch:
+  - target: { channel: &pcf-windows-eng G0GQ8KXLZ }
+  delegate:
+    union:
+    - user: { id: &Jason_Smith U055LUN2J }
+    - user: { id: &Garima_Sharma U2LAQS9RQ }
+    - user: { id: &Simon_Jones U0H6HC71B }
+    - user: { id: &George_Gelashvili U0FA4167Q }
+    - user: { id: &Nick_Smith UF57D0DL1 }
+    - user: { id: &Gab_Satchi U07K08GGP }
+    - user: { id: &Malini_Valliath UC53SHZ32 }
+    - user: { id: &Matthew_Horan U0563PD3X }
+    - user: { id: &Jackson_Feeny U7U1BRTR8 }
+    - user: { id: &Kartik_Lunkad U0MJ7N77U }
