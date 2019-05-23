@@ -1,0 +1,29 @@
+---
+delegatebot:
+  watch:
+  - target: { channel: &pcf-windows C05666253 }
+  - target: { channel: &garden-windows-bots CE1A863A7 }
+  delegate: &interrupts
+    if:
+      when:
+        - hours: { tz: America/New_York, start: 09:00, end: 18:00 }
+        - day: { tz: America/New_York, days: [ Mon, Tue, Wed, Thu, Fri ] }
+        - not: { date: { tz: America/New_York, dates: [ 2019-01-01, 2019-01-21, 2019-02-18, 2019-05-27, 2019-07-04, 2019-09-02, 2019-11-28, 2019-11-29, 2019-12-25 ] } }
+      then:
+        union:
+          - literalmap:
+              from:
+                pairist:
+                  team: garden-windows
+                  role: Interrupt
+              users:
+                Yael: UCKDV7ZEK
+                Natalie: U2SSN6RQQ
+                Yechiel: UDT3Q8KLH
+                Arjun: UBKBNQBBM
+                Matt: U0563PD3X
+                Genevieve: U0BSZH3EX
+                Sophie: UF53HEMMW
+          - user: { id: &JRO U5EJ9E8DQ }
+  options:
+    empty_message: Sorry, no interrupt is available right now. The community may be able to help, or feel free to ping again later.
