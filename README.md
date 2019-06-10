@@ -27,3 +27,14 @@ For updating the garden windows team Slack bot in the #pcf-windows and garden-wi
 4. Commit and push changes to Github (make sure you're pushing to the garden-windows branch!!)
 
 5. Go to [delegate-bot pipeline](https://garden-windows.ci.cf-app.com/teams/main/pipelines/delegate-bot) and run the deploy job.
+
+# Important Note:
+
+If you are updating the Pivotal Slack bot, you probably want to update the Cloud Foundry one as well. 
+
+To do this:
+
+* Navigate to [CF Slack Interrupt bot](https://github.com/dpb587/cloudfoundry-slack-interrupt-bot) repository and fork it
+* Edit the `config/garden-windows.yml` file, using the same logic as above EXCEPT take the `User Id` from Cloud Foundry Slack. **The `User Id` is NOT the same as the Pivotal Slack `User Id`!**
+* Submit a pull request to the upstream repo
+* Ping Danny Berger to deploy the CF Slack Interrupt bot with the changes
