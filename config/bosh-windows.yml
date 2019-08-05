@@ -23,15 +23,13 @@ delegatebot:
                   team: boshwindows
                   role: Interrupt
               users:
-                Jason Smith: U055LUN2J
                 Garima Sharma: U2LAQS9RQ
                 Simon Jones: U0H6HC71B
                 George Gelashvili: U0FA4167Q
-                Nick Smith: UF57D0DL1
-                Gab Satchi: U07K08GGP
-                Malini Valliath: UC53SHZ32
                 Matthew Horan: U0563PD3X
                 Jackson Feeny: U7U1BRTR8
+                Tal Usvyatsky: UL5DFJS4C
+                Daniel Basner: UJRBWR9FE
           - user: { id: &Kartik_Lunkad U0MJ7N77U }
   options:
     empty_message: Sorry, no interrupt is available right now. The community may be able to help, or feel free to ping again later.
