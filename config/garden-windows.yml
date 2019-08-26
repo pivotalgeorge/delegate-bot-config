@@ -25,6 +25,6 @@ delegatebot:
                 Genevieve: U0BSZH3EX
                 Sophie: UF53HEMMW
                 Cara: UK06QV0BU
-          - user: { id: &JRO U5EJ9E8DQ }
+                Jack: U7VMKP58A
   options:
     empty_message: Sorry, no interrupt is available right now. The community may be able to help, or feel free to ping again later.
