@@ -30,6 +30,8 @@ delegatebot:
                 Jackson Feeny: U7U1BRTR8
                 Tal Usvyatsky: UL5DFJS4C
                 Daniel Basner: UJRBWR9FE
-          - user: { id: &Kartik_Lunkad U0MJ7N77U }
+          - user: 
+              id: &Kartik_Lunkad U0MJ7N77U
+              id: &Anushka_Makhija U5C7QJGDA
   options:
     empty_message: Sorry, no interrupt is available right now. The community may be able to help, or feel free to ping again later.
