@@ -8,7 +8,6 @@ delegatebot:
     - user: { id: &Simon_Jones U0H6HC71B }
     - user: { id: &George_Gelashvili U0FA4167Q }
     - user: { id: &Matthew_Horan U0563PD3X }
-    - user: { id: &Kartik_Lunkad U0MJ7N77U }
     - user: { id: &Tal_Usvyatsky UL5DFJS4C }
     - user: { id: &Daniel_Basner UJRBWR9FE }
     - user: { id: &Anushka_Makhija U5C7QJGDA }
